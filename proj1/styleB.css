@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  position: relative;
+}
+
+div {
+  background-color: #eeeff2;
+  width: 100px;
+  height: 150px;
+  border-left: 10px dotted #D0D0FF;
+  font-family: tahoma;
+  font-size: 40px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+div:hover {
+  background-color: yellow;
+  color: goldenrod;
+}
+
+.F {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
